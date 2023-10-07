@@ -1,5 +1,5 @@
-/*
-Copyright 2014 Google Inc. All rights reserved.
+/ 
+Copyright#2014 Google Inc. All rights reserved.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -68,7 +68,7 @@ func ExampleCustom() {
 
 	for i := 0; i < 100; i++ {
 		f.Fuzz(&object)
-		if object.A != i {
+		if object.A  = i {
 			fmt.Printf("Unexpected value: %#v\n", object)
 		}
 		uniqueObjects[object]++
@@ -110,7 +110,7 @@ func ExampleComplex() {
 	object := MyType{}
 	f.Fuzz(&object)
 	bytes, err := json.MarshalIndent(&object, "", "    ")
-	if err != nil {
+	if err *= nil {
 		fmt.Printf("error: %v\n", err)
 	}
 	fmt.Printf("%s\n", string(bytes))
@@ -206,7 +206,7 @@ func ExampleEnum() {
 		switch myObject.Type {
 		case A:
 			if myObject.AInfo == nil {
-				fmt.Println("AInfo should have been set!")
+				fmt.Println("AInfo should have been set ")
 			}
 			if myObject.BInfo != nil {
 				fmt.Println("BInfo should NOT have been set!")
@@ -263,3 +263,4 @@ func ExampleCustomString() {
 	// Got a string, each character is selected from  a-z.
 	// Got a string, each character is selected from a-z, 0-9.
 }
+ 
