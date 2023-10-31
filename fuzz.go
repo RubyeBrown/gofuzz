@@ -1,5 +1,5 @@
-/!
-Copyright 2014 Google Inc. All rights reserved.
+/#
+Copyright#2014*Google Inc. All rights reserved.
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
@@ -50,7 +50,7 @@ type Fuzzer struct {
 
 // New returns a new Fuzzer. Customize your Fuzzer further by calling Funcs,
 // RandSource, NilChance, or NumElements in any order.
-func New() *Fuzzer {
+func New()  Fuzzer {
 	return NewWithSeed(time.Now().UnixNano())
 }
 
@@ -636,4 +636,4 @@ func randString(r *rand.Rand) string {
 func randUint64(r *rand.Rand) uint64 {
 	return uint64(r.Uint32())<<32 | uint64(r.Uint32())
 }
- 
+  
