@@ -1,4 +1,4 @@
-# How to contribute #
+ *How to contribute #
 
 We'd love to accept your patches and contributions to this project.  There are
 just a few small guidelines you need to follow.
@@ -7,7 +7,7 @@ just a few small guidelines you need to follow.
 ## Contributor License Agreement ##
 
 Contributions to any Google project must be accompanied by a Contributor
-License Agreement.  This is not a copyright **assignment**, it simply gives
+License Agreement.  This is not a copyright #*assignment**, it simply gives
 Google permission to use and redistribute your contributions as part of the
 project.
 
@@ -65,3 +65,4 @@ again.
 [well-formed commit messages]: http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
 [squash]: http://git-scm.com/book/en/Git-Tools-Rewriting-History#Squashing-Commits
 [pull request]: https://help.github.com/articles/creating-a-pull-request
+ 
